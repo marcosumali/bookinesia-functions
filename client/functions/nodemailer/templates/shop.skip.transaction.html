@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body style="background:#ffffff !important; font-family: 'Open Sans', Helvetica, Arial, sans-serif;">
+  <style class="float-center" type="text/css"></style><span class="preheader"></span>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-2195009-2', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-2195009-27', 'auto', {
+      name: "foundation"
+    });
+    ga('foundation.send', 'pageview');
+
+    ga('create', 'UA-2195009-47', 'auto', {
+      name: "foundation_emails"
+    });
+    ga('foundation_emails.send', 'pageview');
+  </script>
+  <table class="body" style="background:#ffffff!important">
+    <tbody>
+      <tr>
+        <td align="center" class="center" valign="top">
+          <center data-parsed="">
+            <table align="center" class="container header float-center" style="background-color: #5499c3; color: #ffffff; width: 100%">
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="row" style="width: 100%">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 large-12 columns first last">
+                            <table style="width: 100%">
+                              <tbody>
+                                <tr>
+                                  <th>
+                                    <h1 class="text-center">Bookinesia</h1>
+                                  </th>
+                                  <th class="expander"></th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table align="center" class="container body-border float-center" style="border-top:8px solid #EAEAEA;">
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="row">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 large-5 columns first last">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <th style="text-align: left;">
+                                    <div style="font-size: 1.5em; margin-bottom: 0.5em; margin-top: 0.5em; text-transform: capitalize;">Hi {{name}},</div>
+                                    
+                                    <div style="color: #666666;font-size: 0.8em; line-height: 1.2;text-align: center; font-weight: bold; font-style: normal; font-stretch: normal; letter-spacing: normal; margin-bottom: 0.25em;">Your queue number is</div>
+                                    <table align="center" class="container header float-center" style="background-color: #666666; color: #ffffff; border-radius: 0.3125em;margin-bottom: 1em;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <table class="row">
+                                              <tbody>
+                                                <tr>
+                                                  <th class="small-12 large-12 columns first last">
+                                                    <table>
+                                                      <tbody>
+                                                        <tr>
+                                                          <th>
+                                                            <div class="text-center" style="font-size: 2em; line-height: 1.2;text-align: center; font-weight: bold; font-style: normal; font-stretch: normal; letter-spacing: normal;">Skipped</div>
+                                                          </th>
+                                                          <th class="expander"></th>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </th>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <div style="color: #666666; font-size: 0.8em; line-height: 1.2;text-align: justify; margin-bottom: 1em; font-weight: normal; font-style: normal; font-stretch: normal; letter-spacing: normal;">We would like to inform you that your queue number for related transaction has been skipped as informed by the shop. If you are not aware of this, please contact your shop's phone number at {{ phone }}.</div>
+                                    <div style="border: 0.5px solid #EAEAEA; background-color: #EAEAEA; margin-bottom: 1em"></div> 
+                                    <div style="color: #666666; font-size: 0.6em;line-height: 1.2;text-align: justify; margin-bottom: 1em; font-weight: bold; font-style: normal; font-stretch: normal; letter-spacing: normal;">TRANSACTION DETAILS</div>
+                                    <div style="color: #666666; font-size: 0.6em;line-height: 1.2;text-align: justify; margin-bottom: 2em; font-weight: normal; font-style: normal; font-stretch: normal; letter-spacing: normal; text-transform: uppercase;">TRANSACTION CODE: {{ transactionId }}</div>
+                                    
+                                    <div style="display: flex; flex-wrap: nowrap; align-items: center; margin-bottom: 1em;">
+                                      <table>
+                                        <tbody>
+                                          <tr>
+                                            <td style="width: 4em;">
+                                                <img class="float-center" style="height: 4em; width: 4em; border-radius: 0.3125em; border: 1px solid #EAEAEA;" src="{{{shopLogo}}}" alt="shop-logo">
+                                            </td>
+                                            <td>
+                                              <div style="margin-left: 1em;">
+                                                <h6 style="font-weight: normal; margin: 0px; margin-bottom: 0.5em; color:#F68606; text-transform: capitalize;">{{ shopName }}</h6>
+                                                <h6 style="font-weight: normal; margin: 0px; margin-bottom: 0.5em; color:#5499c3; text-transform: capitalize;">{{ branchName }}</h6>
+                                                <h6 style="margin: 0px; text-transform: capitalize">{{ date }}</h6>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+
+                                    <div style="display: flex; flex-wrap: nowrap; align-items: center; margin-bottom: 1em;">
+                                      <table>
+                                        <tbody>
+                                          <tr>
+                                            <td style="width: 4em;">
+                                                <img class="float-center" style="height: 4em; width: 4em; border-radius: 50%; border: 1px solid #EAEAEA;" src="{{{staffImage}}}" alt="staff-image">
+                                            </td>
+                                            <td>
+                                              <div style="margin-left: 1em;">
+                                                <h6 style="font-weight: normal; margin: 0px; margin-bottom: 0.5em; color: #F68606">Your Barber:</h6>
+                                                <h6 style="font-weight: normal; margin: 0px; margin-bottom: 0.5em; color: #5499c3; text-transform: capitalize;">{{ staffName }}</h6>
+                                                <h6 style="margin: 0px;">Your Queue No. {{ queueNo }}</h6>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+
+                                    <div style="border: 0.5px solid #EAEAEA; background-color: #EAEAEA; margin-bottom: 2em"></div>
+
+                                    <table align="center" class="container header float-center" style="width: 100%">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <table class="row" style="width: 100%">
+                                              <tbody>
+                                                <tr>
+                                                  <th class="small-12 large-12 columns first last">
+                                                    <table style="width: 100%">
+                                                      <tfoot>
+                                                        <tr>
+                                                          <th>
+                                                            <div style="text-align: center; color:#666666; font-size: 0.6em; font-weight: normal;">Need help? Contact us at <a style="color:#5499c3;text-decoration: underline;" href="mailto:customercare@bookinesia.com">customercare@bookinesia.com</a></div>
+                                                          </th>
+                                                          <th class="expander"></th>
+                                                        </tr>
+                                                      </tfoot>
+                                                    </table>
+                                                  </th>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="expander"></th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;</div>
+</body>
+
+</html>
